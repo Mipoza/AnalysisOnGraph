@@ -68,7 +68,7 @@ def laplacian_grid(N): #Not on Torus e.g. no periodic bounduary condition
 
     return D-A
 
-N = 10
+N = 20
 κ = 1.0
 
 L = laplacian_grid(N)
